@@ -48,3 +48,4 @@ while True:
         draw_digit(screen, 60 + i * 180, 50, 140, 200, ch)
     pygame.display.flip()
     clock.tick(60)
+    # TODO - create digital dash design based on 1984 Toyota Cressida
