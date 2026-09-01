@@ -1,1 +1,5 @@
 pygame==2.6.1
+
+# Only needed by tools/probe_obd.py when talking to a real ELM327 adapter.
+# The probe's --mock mode runs without it.
+pyserial==3.5
